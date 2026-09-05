@@ -1,7 +1,6 @@
-import Student from "../models/Student.js";
+import Student from "../models/StudentModel.js";
 
-// @desc    Create a new student
-// @route   POST /api/students
+
 export const createStudent = async (req, res) => {
   try {
     const student = await Student.create(req.body);

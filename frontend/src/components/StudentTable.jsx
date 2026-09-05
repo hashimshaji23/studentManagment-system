@@ -1,5 +1,5 @@
 export default function StudentTable({ students, onEdit, onDelete, onAddFirst }) {
-  if (students.length === 0) {
+  if (students.length === 0) { 
     return (
       <table className="register">
         <tbody>
